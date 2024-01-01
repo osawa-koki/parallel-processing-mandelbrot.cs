@@ -1,4 +1,4 @@
-namespace simple_project_cs
+namespace parallel_processing_mandelbrot_cs
 {
     public class Math
     {
