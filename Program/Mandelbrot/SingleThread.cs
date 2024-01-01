@@ -4,12 +4,14 @@ using System.Xml.Linq;
 using SixLabors.ImageSharp;
 using SixLabors.ImageSharp.PixelFormats;
 using System.Numerics;
+using BenchmarkDotNet.Attributes;
 
 namespace parallel_processing_mandelbrot_cs.mandelbrot
 {
-    public static partial class Mandelbrot
+    public partial class Mandelbrot
     {
-        public static void SingleThread()
+        [Benchmark]
+        public void SingleThread()
         {
             // 変数の定義。
             var width = 1024;

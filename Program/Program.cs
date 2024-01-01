@@ -1,3 +1,4 @@
+using BenchmarkDotNet.Running;
 using parallel_processing_mandelbrot_cs.mandelbrot;
 
 namespace parallel_processing_mandelbrot_cs
@@ -12,7 +13,7 @@ namespace parallel_processing_mandelbrot_cs
             Console.WriteLine($"{a} + {b} = {Math.Add(a, b)}");
             Console.WriteLine($"{a} - {b} = {Math.Sub(a, b)}");
 
-            Mandelbrot.SingleThread();
+            BenchmarkRunner.Run<Mandelbrot>();
         }
     }
 }
