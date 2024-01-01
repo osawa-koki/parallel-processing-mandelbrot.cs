@@ -1,4 +1,5 @@
 using Xunit;
+
 using parallel_processing_mandelbrot_cs;
 
 namespace Test
