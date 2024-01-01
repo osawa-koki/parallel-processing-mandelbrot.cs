@@ -2,6 +2,9 @@
 
 🧧🧧🧧 C#で並列処理でマンデルブロ集合を描画してみる！  
 
+[![ci](https://github.com/osawa-koki/parallel-processing-mandelbrot.cs/actions/workflows/ci.yml/badge.svg)](https://github.com/osawa-koki/parallel-processing-mandelbrot.cs/actions/workflows/ci.yml)
+[![exec](https://github.com/osawa-koki/parallel-processing-mandelbrot.cs/actions/workflows/exec.yml/badge.svg)](https://github.com/osawa-koki/parallel-processing-mandelbrot.cs/actions/workflows/exec.yml)
+
 ![成果物](./docs/images/fruit.png)  
 
 ## 実行方法
