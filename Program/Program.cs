@@ -1,4 +1,6 @@
-namespace simple_project_cs
+using parallel_processing_mandelbrot_cs.mandelbrot;
+
+namespace parallel_processing_mandelbrot_cs
 {
     public static class Program
     {
@@ -9,6 +11,8 @@ namespace simple_project_cs
             int b = 20;
             Console.WriteLine($"{a} + {b} = {Math.Add(a, b)}");
             Console.WriteLine($"{a} - {b} = {Math.Sub(a, b)}");
+
+            Mandelbrot.SingleThread();
         }
     }
 }
