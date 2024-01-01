@@ -1,9 +1,10 @@
-using System.Xml.Schema;
+using System.Numerics;
 using System.Xml;
 using System.Xml.Linq;
+using System.Xml.Schema;
+
 using SixLabors.ImageSharp;
 using SixLabors.ImageSharp.PixelFormats;
-using System.Numerics;
 using BenchmarkDotNet.Attributes;
 
 namespace parallel_processing_mandelbrot_cs.mandelbrot

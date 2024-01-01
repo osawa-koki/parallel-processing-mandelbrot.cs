@@ -1,4 +1,5 @@
 using BenchmarkDotNet.Running;
+
 using parallel_processing_mandelbrot_cs.mandelbrot;
 
 namespace parallel_processing_mandelbrot_cs
