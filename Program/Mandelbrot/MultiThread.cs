@@ -86,6 +86,8 @@ namespace parallel_processing_mandelbrot_cs.mandelbrot
                 });
             }
 
+            Task.WaitAll(tasks);
+
             // 画像の保存。
             image.Save("mandelbrot_multithread.png");
         }
