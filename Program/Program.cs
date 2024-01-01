@@ -14,6 +14,10 @@ namespace parallel_processing_mandelbrot_cs
             Console.WriteLine($"{a} - {b} = {Math.Sub(a, b)}");
 
             BenchmarkRunner.Run<Mandelbrot>();
+
+            Mandelbrot mandelbrot = new();
+            mandelbrot.SingleThread();
+            mandelbrot.MultiThread();
         }
     }
 }

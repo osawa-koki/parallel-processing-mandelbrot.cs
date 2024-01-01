@@ -62,12 +62,12 @@ namespace parallel_processing_mandelbrot_cs.mandelbrot
 
                     if (is_inside)
                     {
-                        var color = iter * 255 / max_iter;
-                        image[x, y] = new Rgba32(color, color, color, 255);
+                        image[x, y] = new Rgba32(0, 0, 0);
                     }
                     else
                     {
-                        image[x, y] = new Rgba32(0, 0, 0, 255);
+                        var color = iter * 16 % 256;
+                        image[x, y] = new Rgba32(color, color, color);
                     }
                 }
             }
